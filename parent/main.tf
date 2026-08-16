@@ -6,6 +6,6 @@ module "rg-parent" {
 module "vnet-parent" {
   depends_on = [module.rg-parent]
   source     = "../child/vnet"
-  vnet-child = var.rg-parent
+  vnet-child = var.vnet-parent
 
 }
