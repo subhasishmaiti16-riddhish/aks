@@ -1,14 +1,14 @@
 rg-parent = {
   rg-parent1 = {
-    rg-name  = "rg-git"
-    location = "central india"
+    rg_name  = "rg-git"
+    location = "centralindia"
   }
 }
 
 vnet-parent = {
   vnet-parent1 = {
-    vnet-name = "vnet-git"
-    rg-name   = "rg-git"
-    location  = "central india"
+    vnet_name = "vnet-git"
+    rg_name   = "rg-git"
+    location  = "centralindia"
   }
 }
