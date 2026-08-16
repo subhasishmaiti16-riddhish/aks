@@ -8,7 +8,7 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name  = "rg_provider"
-    storage_account_name = "aksstorageaccount3"
+    storage_account_name = "aksstorageaccount2"
     container_name       = "aksstoragecont"
     key                  = "parent.aksstoragecont"
 
