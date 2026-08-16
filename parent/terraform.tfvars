@@ -12,3 +12,11 @@ vnet-parent = {
     location  = "centralindia"
   }
 }
+
+subnet-parent = {
+  subnet-parent = {
+    subnet_name = "subnet-git"
+    rg_name     = "rg-git"
+    vnet_name   = "vnet-git"
+  }
+}

@@ -4,3 +4,6 @@ variable "rg-parent" {
 variable "vnet-parent" {
   type = any
 }
+variable "subnet-parent" {
+  type = any
+}
